@@ -1,5 +1,5 @@
-#ifndef  _MAIN_H_
-#define  _MAIN_H_
+#ifndef  _SHELL_H_
+#define  _SHELL_H_
 
 #include <stdio.h>
 #include <unistd.h>
