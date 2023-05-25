@@ -2,7 +2,7 @@
 
 /**
  * add_rvar_node - adds a variable at the end
- * of a reverse list.
+ * of a r_var list.
  * @head: head of the linked list.
  * @lvar: length of the variable.
  * @val: value of the variable.
@@ -39,7 +39,7 @@ r_var *add_rvar_node(r_var **head, int lvar, char *val, int lval)
 }
 
 /**
- * free_rvar_list - frees a reverse list
+ * free_rvar_list - frees a r_var list
  * @head: head of the linked list.
  * Return: no return.
  */

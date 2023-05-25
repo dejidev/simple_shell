@@ -28,7 +28,7 @@ int get_len(int n)
 	return (lenght);
 }
 /**
- * aux_itoa - converts integer to string.
+ * aux_itoa - function converts int to string.
  * @n: type int number
  * Return: String.
  */

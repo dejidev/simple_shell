@@ -1,11 +1,11 @@
 #include "shell.h"
 
 /**
- * generateEnvError - Error message for env cmd in get_env.
- * @datash: Relevant data (counter, arguments).
- * Return: Error message.
+ * error_env - error message for env in get_env.
+ * @datash: data relevant (counter, arguments)
+ * Return: error message.
  */
-char *generateEnvError(data_shell *datash)
+char *error_env(data_shell *datash)
 {
 	int length;
 	char *error;
@@ -35,13 +35,13 @@ char *generateEnvError(data_shell *datash)
 
 	return (error);
 }
-
 /**
- * generatePathPermissionError - Error message for path command denial.
- * @datash: Relevant data (counter, arguments).
+ * error_path_126 - error message for path and failure denied permission.
+ * @datash: data relevant (counter, arguments).
+ *
  * Return: The error string.
  */
-char *generatePathPermissionError(data_shell *datash)
+char *error_path_126(data_shell *datash)
 {
 	int length;
 	char *ver_str;

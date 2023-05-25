@@ -1,9 +1,9 @@
 #include "shell.h"
 
 /**
- * _strdup - Duplicates a string in the heap memory.
- * @s: String to duplicate.
- * Return: Duplicate  the string.
+ * _strdup - duplicates a str in the heap memory.
+ * @s: Type char pointer str
+ * Return: duplicated str
  */
 char *_strdup(const char *s)
 {
@@ -19,9 +19,9 @@ char *_strdup(const char *s)
 }
 
 /**
- * _strlen - Returns the length of a string.
- * @s: String.
- * Return: Length of the string.
+ * _strlen - Returns the lenght of a string.
+ * @s: Type char pointer
+ * Return: Always 0.
  */
 int _strlen(const char *s)
 {
@@ -34,10 +34,11 @@ int _strlen(const char *s)
 }
 
 /**
- * cmp_chars - Compares characters of two strings.
- * @str: Input string.
- * @delim: Delimiter.
- * Return: 1 if the characters are equal, 0 otherwise.
+ * cmp_chars - compare chars of strings
+ * @str: input string.
+ * @delim: delimiter.
+ *
+ * Return: 1 if are equals, 0 if not.
  */
 int cmp_chars(char str[], const char *delim)
 {
@@ -60,10 +61,11 @@ int cmp_chars(char str[], const char *delim)
 }
 
 /**
- * _strtok - Splits a string by a delimiter.
- * @str: Input string.
- * @delim: Delimiter.
- * Return: Splitted string.
+ * _strtok - splits a string by some delimiter.
+ * @str: input string.
+ * @delim: delimiter.
+ *
+ * Return: string splited.
  */
 char *_strtok(char str[], const char *delim)
 {
